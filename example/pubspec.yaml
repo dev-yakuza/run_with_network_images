@@ -1,0 +1,19 @@
+name: run_with_network_images_example
+description: An example for run_with_network_images package.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  run_with_network_images:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1

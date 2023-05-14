@@ -1,0 +1,7 @@
+{
+  "words": [
+    "Lefthook",
+    "pubspec"
+  ],
+  "ignorePaths": ["*.mocks.dart", "LICENSE"]
+}

@@ -1,0 +1,13 @@
+pre-commit:
+  parallel: true
+  commands:
+    pretty:
+      glob: '*.dart'
+      run: dart format {staged_files} && git add {staged_files}
+    build:
+      glob: 'lib/src/run_with_network_images.dart'
+      run: flutter pub run build_runner build --delete-conflicting-outputs && git add {staged_files}
+    linter:
+      run: flutter analyze
+    tests:
+      run: flutter test
