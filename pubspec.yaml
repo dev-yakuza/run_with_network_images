@@ -1,0 +1,20 @@
+name: run_with_network_images
+description: Helper for providing mocked Image.network response in Flutter widget tests.
+version: 0.0.1
+homepage: https://github.com/dev-yakuza/run_with_network_images
+repository: https://github.com/dev-yakuza/run_with_network_images
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mockito: ^5.4.0
+  build_runner: ^2.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
