@@ -12,30 +12,30 @@ version-resolver:
       - 'patch'
   default: patch
 categories:
-  - title: "⚠️ Breaking changes"
+  - title: '⚠️ Breaking changes'
     labels:
-      - "breaking change"
-  - title: "🚀 Features"
+      - 'breaking change'
+  - title: '🚀 Features'
     labels:
-      - "feature"
-  - title: "🐛 Bug Fixes"
+      - 'feature'
+  - title: '🐛 Bug Fixes'
     labels:
-      - "bug"
-  - title: "📃 Documents"
+      - 'bug'
+  - title: '📃 Documents'
     labels:
-      - "docs"
-  - title: 🧩 Dependency Updates
+      - 'docs'
+  - title: '🧩 Dependency Updates'
     labels:
-      - deps
-      - dependencies
-      - bump
+      - 'deps'
+      - 'dependencies'
+      - 'bump'
+      - 'chore'
     collapse-after: 5
   - title: '🔬 Others'
     labels:
       - 'style'
       - 'refactor'
       - 'test'
-      - 'chore'
       - 'ci'
     collapse-after: 5
 autolabeler:
