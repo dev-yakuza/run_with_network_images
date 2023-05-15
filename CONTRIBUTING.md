@@ -1,4 +1,4 @@
-# Welcome to Amplify benchmark viewer contributing guide
+# Welcome to run_with_network_images contributing guide
 
 Thank you for your interest in contributing to run_with_network_images! There are a few things you need to know to contribute.
 
