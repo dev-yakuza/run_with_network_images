@@ -51,7 +51,7 @@ jobs:
         run: flutter pub get
 
       - name: Update version
-        run: flutter run bull pub_version --version=${{ steps.semver.outputs.version }}
+        run: dart run bull pub_version --version=${{ steps.semver.outputs.version }}
 
       - name: Commit updated pubspec
         uses: stefanzweifel/git-auto-commit-action@v4
