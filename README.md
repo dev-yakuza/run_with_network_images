@@ -25,7 +25,7 @@ Or, open the `pubspec.yaml` file and add the `run_with_network_images` package t
 ```yaml
 ...
 dev_dependencies:
-  run_with_network_images: ^0.0.1
+  run_with_network_images: [version]
 ...
 ```
 

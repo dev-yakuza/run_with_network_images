@@ -42,10 +42,13 @@ The `test/run_with_network_images_test.dart` file is the test file of the packag
 
 Please add one of the following commit type to the commit message.
 
-- feat : Adding new features
-- fix : Fixing bugs
-- docs : Updating docs
-- style : Formatting codes like `spaces`, `comma(,)`, and so on
-- refactor : Refactoring codes
-- test : Add or refactoring test codes
-- chore : Add or modifying GitHub actions, dependencies, or developing environments
+- `fix:`: In case of bug fixed.
+- `feat:`: In case of feature added.
+- `build:`: In case of build system or dependencies changed.
+- `chore:`: In case of build system or dependencies changed.
+- `ci:`: In case of CI configuration or scripts changed.
+- `docs:`: In case of only documentation changed.
+- `style:`: In case of code style(space, formatting, colons, etc) changed.
+- `refactor:`: In case of refactoring code not fixing bugs or adding features.
+- `pref:`: In case of modifying code for improving performance.
+- `test:`: In case of adding test code or modifying existing test code.
