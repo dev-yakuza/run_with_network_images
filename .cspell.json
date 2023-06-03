@@ -3,5 +3,5 @@
     "Lefthook",
     "pubspec"
   ],
-  "ignorePaths": ["*.mocks.dart", "LICENSE"]
+  "ignorePaths": ["*.mocks.dart", "LICENSE", "CHANGELOG.md"]
 }
